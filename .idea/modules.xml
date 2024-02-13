@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaSicherheit.iml" filepath="$PROJECT_DIR$/.idea/JavaSicherheit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwt-authentifizierung-autorisierung-sicherheit/jwt-authentifizierung-autorisierung-sicherheit.iml" filepath="$PROJECT_DIR$/jwt-authentifizierung-autorisierung-sicherheit/jwt-authentifizierung-autorisierung-sicherheit.iml" />
+    </modules>
+  </component>
+</project>

@@ -48,7 +48,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http
                 .authorizeRequests()
                 .antMatchers("/login", "/register").permitAll()
-                .antMatchers("/demo").authenticated() // Require authentication for /securedUrl
+                .antMatchers("/authorized").authenticated() // Require authentication for /authorized
                 .antMatchers("/admin_only/**").hasAuthority("ADMIN") // Require ADMIN authority for /admin_only/**
                 .anyRequest().authenticated()
                 .and()

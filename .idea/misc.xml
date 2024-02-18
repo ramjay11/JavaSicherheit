@@ -4,8 +4,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/jwt-authentifizierung-autorisierung-sicherheit/pom.xml" />
+        <option value="$PROJECT_DIR$/fruhling-sicherheit-jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/jwt-autorisierungsauthentifizierung/pom.xml" />
+        <option value="$PROJECT_DIR$/jwt-sicherheit-leitfaden/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" project-jdk-name="17" project-jdk-type="JavaSDK" />
 </project>

@@ -6,16 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jwt-sicherheit-leitfaden" />
+        <module name="fruhling-sicherheit-jwt" />
         <module name="jwt-authentifizierung-autorisierung-sicherheit" />
+        <module name="jwt-autorisierungsauthentifizierung" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="fruhling-sicherheit-jwt" target="17" />
       <module name="jwt-authentifizierung-autorisierung-sicherheit" target="17" />
+      <module name="jwt-autorisierungsauthentifizierung" target="17" />
+      <module name="jwt-sicherheit-leitfaden" target="19" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="fruhling-sicherheit-jwt" options="-parameters" />
       <module name="jwt-authentifizierung-autorisierung-sicherheit" options="-parameters" />
+      <module name="jwt-autorisierungsauthentifizierung" options="-parameters" />
+      <module name="jwt-sicherheit-leitfaden" options="-parameters" />
     </option>
   </component>
 </project>

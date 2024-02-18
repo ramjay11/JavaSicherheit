@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaSicherheit.iml" filepath="$PROJECT_DIR$/.idea/JavaSicherheit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fruhling-sicherheit-jwt/fruhling-sicherheit-jwt.iml" filepath="$PROJECT_DIR$/fruhling-sicherheit-jwt/fruhling-sicherheit-jwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/jwt-authentifizierung-autorisierung-sicherheit/jwt-authentifizierung-autorisierung-sicherheit.iml" filepath="$PROJECT_DIR$/jwt-authentifizierung-autorisierung-sicherheit/jwt-authentifizierung-autorisierung-sicherheit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwt-autorisierungsauthentifizierung/jwt-autorisierungsauthentifizierung.iml" filepath="$PROJECT_DIR$/jwt-autorisierungsauthentifizierung/jwt-autorisierungsauthentifizierung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwt-sicherheit-leitfaden/jwt-sicherheit-leitfaden.iml" filepath="$PROJECT_DIR$/jwt-sicherheit-leitfaden/jwt-sicherheit-leitfaden.iml" />
     </modules>
   </component>
 </project>
